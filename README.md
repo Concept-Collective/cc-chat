@@ -1,7 +1,12 @@
+
 # CC Chat
 ### Introduction
 
 CC Chat is a chat theme for FiveM default chat resource
+
+### Screenshots
+
+- TODO
 
 ### Features
 
@@ -13,10 +18,10 @@ CC Chat is a chat theme for FiveM default chat resource
 - Free Forever
 
 ### Documentation
-[Installation](https://github.com/Concept-Collective/cc-chat/wiki/Installation)
+- [Home](https://github.com/Concept-Collective/cc-chat/wiki)
+- [Installation](https://github.com/Concept-Collective/cc-chat/wiki/Installation)
+- [Using the message template](https://github.com/Concept-Collective/cc-chat/wiki/Using-the-message-template)
+- [Creating Chat Suggestions](https://github.com/Concept-Collective/cc-chat/wiki/Creating-Chat-Suggestions)
 
-<br><br><br><br><br>
-
-<hr>
-<p align='center'><a href='https://discord.conceptcollective.net'>Discord</a></p>
-<hr>
+### Support
+- [Discord](https://discord.conceptcollective.net)
