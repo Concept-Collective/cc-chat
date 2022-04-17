@@ -1,13 +1,13 @@
 @import url('https://use.fontawesome.com/releases/v6.1.1/css/all.css');
-.color-0{color: #ffffff;}
-.color-1{color: #ff4444;}
-.color-2{color: #99cc00;}
-.color-3{color: #ffbb33;}
-.color-4{color: #0099cc;}
-.color-5{color: #33b5e5;}
-.color-6{color: #aa66cc;}
-.color-8{color: #cc0000;}
-.color-9{color: #cc0068;}
+.color-0{color: #ecf0f1;}
+.color-1{color: #e67e22;}
+.color-2{color: #2ecc71;}
+.color-3{color: #f1c40f;}
+.color-4{color: #2980b9;}
+.color-5{color: #3498db;}
+.color-6{color: #9b59b6;}
+.color-8{color: #e74c3c;}
+.color-9{color: #c0392b;}
 
 .gameColor-w{color: #ffffff;}
 .gameColor-r{color: #ff4444;}
@@ -188,72 +188,70 @@ textarea:focus, input:focus {
 }
 
 h1 {
-    font-size: 16px;
-    font-weight: bolder;
+  font-size: 16px;
+  font-weight: bolder;
 }
 
 h2 {
-    font-size: 13px;
-    font-weight: 900;
+  font-size: 13px;
+  font-weight: 900;
 }
 
 p {
-    font-size: 15px;
-    font-weight:650;
+  font-size: 15px;
+  font-weight:650;
 }
 #notification {
-    display: flex;
-    padding: 6px;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: #FEFEFF;
-    border-radius: 14px;
-    max-width: 98%;
-    margin-bottom: 5px;
-    width: fit-content;
-    min-width: 15%;
-    word-wrap: break-word;
+display: flex;
+  padding: 6px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: #FEFEFF;
+  border-radius: 14px;
+  max-width: 98%;
+  margin-bottom: 5px;
+  width: fit-content;
+  min-width: 15%;
+  word-wrap: break-word;
 }
 #color-box {
-    width: 10px;
-    float: left;
-    min-height: 100%;
-    border-radius: 8px;
-    flex-shrink:0;
+  width: 10px;
+  float: left;
+  min-height: 100%;
+  border-radius: 8px;
+  flex-shrink:0;
 }
 #info {
-    margin-left: 10px;
-    width: auto;
-    max-width: 100%;
-    position: relative;
-    min-width: 85%;
+  margin-left: 10px;
+  width: auto;
+  max-width: 100%;
+  position: relative;
+  min-width: 85%;
 }
 #top-info {
-    padding-bottom: 5px;
+  padding-bottom: 5px;
 }
 #left-info {
-    float:left;
-    width:auto;
+  float:left;
+  width:auto;
 }
 #right-info{
-    float:right;
-    width:50%;
+  float:right;
+  width:50%;
 }
 #title {
-    float:left;
-    width: auto;
-    padding-right: 10px;
+  float:left;
+  width: auto;
+  padding-right: 10px;
 }
 #sub-title {
-    float:right;
-    color: #C6C6C6;
-    padding-right: 50px;
+  float:right;
+  color: #C6C6C6;
+  padding-right: 10px;
 }
 #time {
-    position: absolute;
-    right: 5px;
-    color: #C6C6C6;
-    
-
+  float: right;
+  right: 5px;
+  color: #C6C6C6;
 }
 
 .noisy {
@@ -261,12 +259,12 @@ p {
 }
 
 .notifyjs-happyblue-base {
-    white-space: nowrap;
-    background-color: lightblue;
-    padding: 5px;
-  }
-  
-  .notifyjs-happyblue-superblue {
-    color: white;
-    background-color: blue;
-  }
+  white-space: nowrap;
+  background-color: lightblue;
+  padding: 5px;
+}
+
+.notifyjs-happyblue-superblue {
+  color: white;
+  background-color: blue;
+}
