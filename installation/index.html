@@ -13,7 +13,7 @@
     
     
       
-        <title>Editing Creating Chat Suggestions - CC-Chat Documentation</title>
+        <title>Installation - CC-Chat Documentation</title>
       
     
     
@@ -59,7 +59,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editing-creating-chat-suggestions" class="md-skip">
+        <a href="#installation" class="md-skip">
           Skip to content
         </a>
       
@@ -92,7 +92,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Editing Creating Chat Suggestions
+              Installation
             
           </span>
         </div>
@@ -191,6 +191,21 @@
 
   
   
+  
+    <li class="md-nav__item">
+      <a href="../create-suggestion/" class="md-nav__link">
+        Editing Creating Chat Suggestions
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
     
   
   
@@ -202,25 +217,48 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Installation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
-        Editing Creating Chat Suggestions
-      </a>
-      
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../installation/" class="md-nav__link">
         Installation
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependency" class="md-nav__link">
+    Dependency
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation_1" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -260,6 +298,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#dependency" class="md-nav__link">
+    Dependency
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#installation_1" class="md-nav__link">
+    Installation
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -272,41 +332,15 @@
                 
 
 
-<h1 id="editing-creating-chat-suggestions">Editing Creating Chat Suggestions</h1>
-<h1 id="example">Example</h1>
-<pre><code class="language-lua">-- Lua Server Side
-Citizen.CreateThread(function()
-    TriggerClientEvent('chat:addSuggestion', -1, '/ooc', 'Out of character', {
-        { name=&quot;Message&quot;, help=&quot;The message you would like to send to the chat&quot; }
-    })
-
-    TriggerClientEvent('chat:addSuggestion', -1, '/ban', 'Ban command', {
-        { name=&quot;Player ID&quot;, help=&quot;The player ID to ban&quot; },
-        { name=&quot;Reason&quot;, help=&quot;Reason for baning the player&quot; }
-    })
-
-    TriggerClientEvent('chat:addSuggestion', -1, '/twt', 'Twitter command', {
-        { name=&quot;Message&quot;, help=&quot;The message you would like to send as a tweet&quot; }
-    })
-end)
-</code></pre>
-<pre><code class="language-lua">-- Lua Client Side
-Citizen.CreateThread(function()
-    TriggerEvent('chat:addSuggestion', '/ooc', 'Out of character', {
-        { name=&quot;Message&quot;, help=&quot;The message you would like to send to the chat&quot; }
-    })
-
-    TriggerEvent('chat:addSuggestion', '/ban', 'Ban command', {
-        { name=&quot;Player ID&quot;, help=&quot;The player ID to ban&quot; },
-        { name=&quot;Reason&quot;, help=&quot;Reason for baning the player&quot; }
-    })
-
-    TriggerEvent('chat:addSuggestion', '/twt', 'Twitter command', {
-        { name=&quot;Message&quot;, help=&quot;The message you would like to send as a tweet&quot; }
-    })
-end)
-</code></pre>
-<h2 id="more-information"><a href="https://docs.fivem.net/docs/resources/chat/events/chat-addSuggestion/">More Information</a></h2>
+<h1 id="installation">Installation</h1>
+<h3 id="dependency">Dependency</h3>
+<p>Default <a href="https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Bgameplay%5D/chat">Chat</a> Resource</p>
+<h3 id="installation_1">Installation</h3>
+<ul>
+<li>Download the <a href="https://github.com/Concept-Collective/cc-chat/releases/latest">latest build</a> of cc-chat </li>
+<li>Extract the archive's contents to your resources folder.</li>
+<li>Start cc-chat after the default chat resource</li>
+</ul>
 
               
             </article>
@@ -320,7 +354,7 @@ end)
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href=".." class="md-footer__link md-footer__link--prev" aria-label="Previous: CC Chat - Introduction" rel="prev">
+        <a href="../create-suggestion/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Editing Creating Chat Suggestions" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
           </div>
@@ -329,20 +363,20 @@ end)
               <span class="md-footer__direction">
                 Previous
               </span>
-              CC Chat - Introduction
+              Editing Creating Chat Suggestions
             </div>
           </div>
         </a>
       
       
         
-        <a href="../installation/" class="md-footer__link md-footer__link--next" aria-label="Next: Installation" rel="next">
+        <a href="../message-template/" class="md-footer__link md-footer__link--next" aria-label="Next: Editing Using the message template" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Installation
+              Editing Using the message template
             </div>
           </div>
           <div class="md-footer__button md-icon">
