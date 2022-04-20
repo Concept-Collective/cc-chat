@@ -23,9 +23,10 @@ theme:
     - navigation.tabs.sticky
     - toc.integrate
     - navigation.top
+    - content.tabs.link
   name: material
   icon:
-repo: fontawesome/brands/github
+    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
@@ -44,51 +45,3 @@ extra:
       link: https://github.com/Concept-Collective
     - icon: fontawesome/brands/discord
       link: https://discord.conceptcollective.net
-
-# Extensions
-markdown_extensions:
-  - toc:
-      toc_depth: 2
-  - markdown.extensions.admonition
-  - markdown.extensions.attr_list
-  - markdown.extensions.codehilite:
-      guess_lang: false
-      linenums: true
-  - markdown.extensions.def_list
-  - markdown.extensions.footnotes
-  - markdown.extensions.meta
-  - markdown.extensions.toc:
-      permalink: true
-  - pymdownx.betterem:
-      smart_enable: all
-  - pymdownx.caret
-  - pymdownx.critic
-  - pymdownx.details
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
-  - pymdownx.inlinehilite
-  - pymdownx.keys
-  - pymdownx.magiclink:
-      provider: "github"
-      repo_url_shortener: true
-      repo_url_shorthand: true
-      social_url_shorthand: true
-      labels:
-        {
-          "commit": "Commit",
-          "compare": "Compare",
-          "issue": "Issue",
-          "pr": "Pull Request",
-          "mention": "User",
-          "repo": "Repository",
-        }
-  - pymdownx.mark
-  - pymdownx.smartsymbols
-  - pymdownx.snippets:
-      check_paths: true
-  - pymdownx.superfences
-  - pymdownx.tabbed
-  - pymdownx.tasklist:
-      custom_checkbox: true
-  - pymdownx.tilde
