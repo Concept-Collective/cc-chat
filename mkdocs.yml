@@ -1,16 +1,89 @@
 site_name: CC-Chat
+site_description: Documentation
+site_author: Concept Collective
+
+# Repository
+repo_name: Concept-Collective/cc-chat
+repo_url: https://github.com/Concept-Collective/cc-chat
+edit_uri: edit/docs/docs/
+
+# Copyright
+copyright: Copyright &copy; 2022 Concept Collective
+
+# Theme
 theme:
   palette:
     scheme: slate
     primary: indigo
+    accent: indigo
   features:
+    - tabs
     - navigation.instant
-    - navigation.sections
     - navigation.tabs
     - navigation.tabs.sticky
+    - toc.integrate
+    - navigation.top
   name: material
   icon:
-    repo: fontawesome/brands/github
-repo_url: https://github.com/Concept-Collective/cc-chat
-repo_name: Concept-Collective/cc-chat
-edit_uri: edit/docs/docs/
+repo: fontawesome/brands/github
+
+# Plugins
+plugins:
+  - search
+  - awesome-pages
+
+# Social
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/overextended/ox_inventory
+    - icon: fontawesome/brands/discord
+      link: https://discord.io/overextended
+
+# Extensions
+markdown_extensions:
+  - toc:
+      toc_depth: 2
+  - markdown.extensions.admonition
+  - markdown.extensions.attr_list
+  - markdown.extensions.codehilite:
+      guess_lang: false
+      linenums: true
+  - markdown.extensions.def_list
+  - markdown.extensions.footnotes
+  - markdown.extensions.meta
+  - markdown.extensions.toc:
+      permalink: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      provider: "github"
+      repo_url_shortener: true
+      repo_url_shorthand: true
+      social_url_shorthand: true
+      labels:
+        {
+          "commit": "Commit",
+          "compare": "Compare",
+          "issue": "Issue",
+          "pr": "Pull Request",
+          "mention": "User",
+          "repo": "Repository",
+        }
+  - pymdownx.mark
+  - pymdownx.smartsymbols
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
