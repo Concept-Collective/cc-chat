@@ -12,19 +12,19 @@ title: Message Arguments
 ### Usage:
 
 === "lua"
-  ```lua
+  ``` lua
   local hexColor = '#ff3300'
   local rgbColor = 'rgb(255, 51, 0)'
   local hslColor = 'hsl(12, 100%, 50%)'
   ```
 
 === "js"
-  ```js
+  ``` js
   TODO
   ```
 
 === "C#"
-  ```c#
+  ``` c#
   TODO
   ```
 
@@ -36,17 +36,17 @@ title: Message Arguments
 ### Usage:
 
 === "lua"
-  ```lua
+  ``` lua
   local icon = 'fa-solid fa-globe'
   ```
 
 === "js"
-  ```js
+  ``` js
   TODO
   ```
   
 === "C#"
-  ```c#
+  ``` c#
   TODO
   ```
  
@@ -56,17 +56,17 @@ title: Message Arguments
 ### Usage:
 
 === "lua"
-  ```lua
+  ``` lua
   local subtitle = '[Advertisement] - ' .. GetPlayerName(source) .. ''
   ```
 
 === "js"
-  ```js
+  ``` js
   TODO
   ```
   
 === "C#"
-  ```c#
+  ``` c#
   TODO
   ```
 
@@ -82,16 +82,41 @@ title: Message Arguments
 ### Usage:
 
 === "lua"
-  ```lua
+  ``` lua
   local subtitle = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
   ```
   
 === "js"
-  ```js
+  ``` js
   TODO
   ```
   
 === "C#"
-  ```c#
+  ``` c#
   TODO
   ```
+  
+  
+  YEYE
+  
+  === "C"
+
+    ``` c
+    #include <stdio.h>
+
+    int main(void) {
+      printf("Hello world!\n");
+      return 0;
+    }
+    ```
+
+=== "C++"
+
+    ``` c++
+    #include <iostream>
+
+    int main(void) {
+      std::cout << "Hello world!" << std::endl;
+      return 0;
+    }
+    ```
