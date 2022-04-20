@@ -1,0 +1,7 @@
+site_name: CC-Chat Documentation
+theme:
+  name: material
+  icon:
+    repo: fontawesome/brands/github
+repo_url: https://github.com/Concept-Collective/cc-chat
+repo_name: Concept-Collective/cc-chat
