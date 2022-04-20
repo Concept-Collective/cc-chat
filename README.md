@@ -13,7 +13,7 @@
 	<p align="center">
 	    CC Chat is a chat theme that includes a custom message template for FiveM's default chat resource.
 	    <br />
-	    <a href="https://github.com/Concept-Collective/cc-chat/wiki"><strong>Wiki »</strong></a>
+	    <a href="https://cc-chat.conceptcollective.net"><strong>Wiki »</strong></a>
 	    <br />
 	    <br />    
 	    <a href="https://github.com/Concept-Collective/cc-chat/issues">Report Bug</a>
