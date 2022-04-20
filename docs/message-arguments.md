@@ -12,6 +12,7 @@ title: Message Arguments
 ### Usage:
 
 <div class="result" markdown>
+  
 === "lua"
   ``` lua
   local hexColor = '#ff3300'
@@ -26,6 +27,7 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+  
 </div>
 
 # Icon
@@ -36,6 +38,7 @@ title: Message Arguments
 ### Usage:
 
 <div class="result" markdown>
+  
 === "lua"
   ``` lua
   local icon = 'fa-solid fa-globe'
@@ -48,6 +51,7 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+  
 </div>
  
 # Subtitle
@@ -56,6 +60,7 @@ title: Message Arguments
 ### Usage:
 
 <div class="result" markdown>
+  
 === "lua"
   ``` lua
   local subtitle = '[Advertisement] - ' .. GetPlayerName(source) .. ''
@@ -68,6 +73,7 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+  
 </div>
 
 # Timestamp
@@ -82,6 +88,7 @@ title: Message Arguments
 ### Usage:
 
 <div class="result" markdown>
+  
 === "lua"
   ``` lua
   local subtitle = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -94,4 +101,5 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+  
 </div>
