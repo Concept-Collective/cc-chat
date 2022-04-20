@@ -45,3 +45,10 @@ extra:
       link: https://github.com/Concept-Collective
     - icon: fontawesome/brands/discord
       link: https://discord.conceptcollective.net
+      
+      
+# Extensions
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true 
