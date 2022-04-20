@@ -5,10 +5,12 @@ title: Message Arguments
 # Color
 ### Accepted Data Type(s):
 - String
+
 ### Accepted Color color models:
 - HEX
 - RGB
 - HSL
+
 ### Usage:
 
 === "lua"
@@ -21,8 +23,10 @@ title: Message Arguments
 # Icon
 ### The following icon sets are bundled with CC Chat:
 - :fontawesome-brands-font-awesome: – [FontAwesome](https://fontawesome.com/search?m=free)
+
 ### Accepted Data Type(s):
 - String
+
 ### Usage:
   
 === "lua"
@@ -33,8 +37,8 @@ title: Message Arguments
 # Subtitle
 ### Accepted Data Type(s):
 - String
+
 ### Usage:
-  
 === "lua"
   ``` lua
   local subtitle = '[Advertisement] - ' .. GetPlayerName(source) .. ''
@@ -43,12 +47,14 @@ title: Message Arguments
 # Timestamp
 ### Accepted Data Type(s):
 - String
+
 ### Usage:
 **TODO**
 
 # Message
 ### Accepted Data Type(s):
 - String
+
 ### Usage:
   
 === "lua"
