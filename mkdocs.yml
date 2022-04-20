@@ -40,9 +40,9 @@ nav:
 extra:
   social:
     - icon: fontawesome/brands/github
-      link: https://github.com/overextended/ox_inventory
+      link: https://github.com/Concept-Collective
     - icon: fontawesome/brands/discord
-      link: https://discord.io/overextended
+      link: https://discord.conceptcollective.net
 
 # Extensions
 markdown_extensions:
