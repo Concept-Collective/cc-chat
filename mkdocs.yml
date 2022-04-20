@@ -1,8 +1,13 @@
-site_name: CC-Chat Documentation
+site_name: CC-Chat
 theme:
   palette:
     scheme: slate
     primary: indigo
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.tabs.sticky
   name: material
   icon:
     repo: fontawesome/brands/github
