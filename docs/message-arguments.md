@@ -1,6 +1,6 @@
-```
+---
 title: Message Arguments
-```
+---
 
 # Color
 ### Accepted Data Type(s)
@@ -18,7 +18,7 @@ local hslColor = 'hsl(12, 100%, 50%)'
 
 # Icon
 ### The following icon sets are bundled with CC Chat:
--  :fa-solid fa-font-awesome:  –  [FontAwesome](https://fontawesome.com/search?m=free)
+- :fontawesome-brands-font-awesome: – [FontAwesome](https://fontawesome.com/search?m=free)
 ### Accepted Data Type(s)
 - String
 ### Usage
