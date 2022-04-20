@@ -16,6 +16,8 @@ theme:
     scheme: slate
     primary: indigo
     accent: indigo
+  icon:
+    repo: fontawesome/brands/github
   features:
     - tabs
     - navigation.instant
@@ -25,8 +27,6 @@ theme:
     - navigation.top
     - content.tabs.link
   name: material
-  icon:
-    repo: fontawesome/brands/github
 
 # Plugins
 plugins:
