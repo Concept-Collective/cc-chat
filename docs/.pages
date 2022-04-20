@@ -1,0 +1,5 @@
+nav:
+  - index.md
+  - installation.md
+  - message-template.md
+  - create-suggestion.md
