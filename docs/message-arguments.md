@@ -11,6 +11,7 @@ title: Message Arguments
 - HSL
 ### Usage:
 
+<div class="result" markdown>
 === "lua"
   ``` lua
   local hexColor = '#ff3300'
@@ -25,6 +26,7 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+</div>
 
 # Icon
 ### The following icon sets are bundled with CC Chat:
@@ -33,6 +35,7 @@ title: Message Arguments
 - String
 ### Usage:
 
+<div class="result" markdown>
 === "lua"
   ``` lua
   local icon = 'fa-solid fa-globe'
@@ -45,12 +48,14 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+</div>
  
 # Subtitle
 ### Accepted Data Type(s):
 - String
 ### Usage:
 
+<div class="result" markdown>
 === "lua"
   ``` lua
   local subtitle = '[Advertisement] - ' .. GetPlayerName(source) .. ''
@@ -63,6 +68,7 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+</div>
 
 # Timestamp
 ### Accepted Data Type(s):
@@ -75,6 +81,7 @@ title: Message Arguments
 - String
 ### Usage:
 
+<div class="result" markdown>
 === "lua"
   ``` lua
   local subtitle = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
@@ -87,3 +94,4 @@ title: Message Arguments
   ``` c#
   TODO
   ```
+</div>
