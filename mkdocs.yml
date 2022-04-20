@@ -24,6 +24,7 @@ theme:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
+    - toc.integrate
     - navigation.top
     - content.tabs.link
     - navigation.expand
