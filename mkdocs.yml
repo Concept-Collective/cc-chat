@@ -30,7 +30,6 @@ repo: fontawesome/brands/github
 # Plugins
 plugins:
   - search
-  - awesome-pages
 
 # Social
 extra:
