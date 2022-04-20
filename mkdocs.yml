@@ -30,6 +30,12 @@ repo: fontawesome/brands/github
 # Plugins
 plugins:
   - search
+# Navigation order
+nav:
+  - 'index.md'
+  - 'installation.md'
+  - 'message-template.md'
+  - 'create-suggestion.md'
 
 # Social
 extra:
