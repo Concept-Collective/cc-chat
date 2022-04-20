@@ -9,6 +9,7 @@ AddEventHandler('onResourceStart', function(resourceName)
             print('^1CC Chat ('..GetCurrentResourceName()..') is outdated!^0')
             print('Current version: (^1v'..GetResourceMetadata(GetCurrentResourceName(), 'version', 0)..'^0)')
             print('Latest version: (^2'..data.tag_name..'^0) '..data.html_url..'')
+            print('Release notes: '..data.body..'')
             print('^1================^0')
         end
     end, 'GET', '')
