@@ -1,5 +1,7 @@
 site_name: CC-Chat Documentation
 theme:
+  palette:
+    primary: deep orange
   name: material
   icon:
     repo: fontawesome/brands/github
