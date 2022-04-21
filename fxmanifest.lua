@@ -1,8 +1,11 @@
-version '1.1.5'
+version '1.2.0'
 author 'Concept Collective'
 description 'A chat theme for FiveM'
 
 server_script 'server/main.lua'
+client_script 'client/main.lua'
+
+dependency 'chat'
 
 file 'theme/style.css'
 
