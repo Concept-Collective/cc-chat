@@ -1,5 +1,7 @@
 ---
 title: Getting Started
+hide:
+  - navigation
 ---
 
 # Installation
