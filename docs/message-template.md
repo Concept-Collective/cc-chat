@@ -1,10 +1,12 @@
 ---
 title: Creating Messages
 ---
-# Introduction
+## Introduction
+
 How to send messages with the custom template 
 
-# Syntax
+## Syntax
+
 ```lua
 templateId = 'ccChat',
 multiline =  false,
@@ -16,7 +18,8 @@ args = {
 	msg 
 }
 ```
-# Arguments
+## Arguments
+
 | Argument      | Data Type     | Explanation
 | ------------- | ------------- | -------------------------------------------------------------------------------------- |
 | `color`       | String        | Accent Color of the message; Accepts `HEX`, `RGB` & `HSL`.                             |
@@ -25,7 +28,8 @@ args = {
 | `timestamp`   | String        | The string on the top right of the message.                                            |
 | `msg`         | String        | The main message being sent.                                                           |
 
-# Example
+## Example
+
 === "lua"
 	```lua
 	-- Server
@@ -42,6 +46,7 @@ args = {
 	})
 	```
 
-# Example Result
+## Example Result
+
 ![image](https://user-images.githubusercontent.com/24248108/164552800-a703373a-632e-4839-a98e-a0cdcdf1d077.png)
 
