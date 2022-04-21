@@ -30,5 +30,5 @@ Get's clients local time in the format `HH:MM XX`
 
 === "lua"
   ```lua
-  timestamp = ccChat:getTimestamp()
+  local timestamp = ccChat:getTimestamp()
   ```
