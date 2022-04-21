@@ -1,5 +1,7 @@
 ---
 title: Creating Messages
+hide:
+  - navigation
 ---
 ## Introduction
 
