@@ -17,7 +17,6 @@ args = {
 }
 ```
 # Arguments
-
 | Argument      | Data Type     | Explanation
 | ------------- | ------------- | -------------------------------------------------------------------------------------- |
 | `color`       | String        | Accent Color of the message; Accepts `HEX`, `RGB` & `HSL`.                             |
@@ -26,7 +25,7 @@ args = {
 | `timestamp`   | String        | The string on the top right of the message.                                            |
 | `msg`         | String        | The main message being sent.                                                           |
 
-# Example Functions
+# Example
 === "lua"
 	```lua
 	-- Server
