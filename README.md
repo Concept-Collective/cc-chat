@@ -12,13 +12,8 @@
 	<h1 align="center">🎨 CC Chat - Chat Theme</h1>
 	<p align="center">
 	    CC Chat is a chat theme that includes a custom message template for FiveM's default chat resource.
-	    <br />
-	    <a href="https://cc-chat.conceptcollective.net"><strong>Wiki »</strong></a>
-	    <br />
-	    <br />    
-	    <a href="https://github.com/Concept-Collective/cc-chat/issues">Report Bug</a>
-	    ·
-	    <a href="https://github.com/Concept-Collective/cc-chat/issues">Request Feature</a>
+	    <br/>
+	    <b><a href='https://discord.conceptcollective.net'>Discord</a> - <a href='https://cc-chat.conceptcollective.net/'>Documentation</a> - <a href="https://github.com/Concept-Collective/cc-chat/issues">Report Bug</a> - <a href="https://github.com/Concept-Collective/cc-chat/issues">Request Feature</a></b></h5>
   	</p>
 	<a href="https://discord.gg/PSqXgg8v8M" title=""><img alt="Discord Invite" src="https://discordapp.com/api/guilds/807309391849062480/widget.png?style=banner2"></a>
 </div>
