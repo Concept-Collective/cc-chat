@@ -1,5 +1,5 @@
 ---
-title: Creating Chat Suggestions
+title: Creating Suggestions
 hide:
   - navigation
 ---
