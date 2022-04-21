@@ -37,6 +37,7 @@ nav:
   - 'index.md'
   - 'message-template.md'
   - 'create-suggestion.md'
+  - 'exports.md'
 
 # Social
 extra:
