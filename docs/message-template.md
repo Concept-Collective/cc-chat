@@ -7,17 +7,19 @@ How to send messages with the custom template
 
 ## Syntax
 
-```lua
-templateId = 'ccChat',
-multiline =  false,
-args = {
-	color,
-	icon,
-	subtitle,
-	timestamp,
-	msg 
-}
-```
+=== "lua"
+	```lua
+	templateId = 'ccChat',
+	multiline =  false,
+	args = {
+		color,
+		icon,
+		subtitle,
+		timestamp,
+		msg 
+	}
+	```
+
 ## Arguments
 
 | Argument      | Data Type     | Explanation
