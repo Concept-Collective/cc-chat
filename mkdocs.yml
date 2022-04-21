@@ -37,7 +37,6 @@ plugins:
 nav:
   - 'index.md'
   - 'message-template.md'
-  - 'message-arguments.md'
   - 'create-suggestion.md'
 
 # Social
