@@ -1,5 +1,7 @@
 ---
-Creating Chat Suggestions
+title: Creating Chat Suggestions
+hide:
+  - navigation
 ---
 
 ## Example
