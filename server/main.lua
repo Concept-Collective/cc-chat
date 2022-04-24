@@ -2,6 +2,9 @@ AddEventHandler('onResourceStart', function(resourceName)
     if (GetCurrentResourceName() ~= resourceName) then
         return
     end
+    if GetCurrentResourceName() ~= 'cc-chat' then
+        print('^6[Warning]^0 For better support, it is recommended that \"'..GetCurrentResourceName().. '\" be renamed to \"cc-chat\"')
+    end
     PerformHttpRequest('https://api.github.com/repos/Concept-Collective/cc-chat/releases/latest', function (err, data, headers)
         local data = json.decode(data)
         if data.tag_name ~= 'v'..GetResourceMetadata(GetCurrentResourceName(), 'version', 0)..'' then
