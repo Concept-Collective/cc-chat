@@ -34,7 +34,7 @@
 - Custom text input box
 - Custom suggestions box
 - A ready-to-use chat template
-- [Font Awesome](https://fontawesome.com/) icons
+- [Font Awesome](https://fontawesome.com/) icons (v6.x.x)
 - Completely customisable
 - Free Forever
 
