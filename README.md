@@ -28,6 +28,10 @@
 	<img src="https://user-images.githubusercontent.com/24248108/163717929-00984374-ac7f-4248-9631-96c6a715e819.png">
 </details>
 
+### ⚠️ Important Notice
+**If CC Chat is a dependency for another resource you can ignore this notice.**
+
+Please note that this resource **does not include** any pre-written commands  or chat messages; you will need to **create them yourself**. It is designed for people who have some experience with scripting. Only those who have some idea of what they're doing will be given support.
 
 ### ✅ Features
 
