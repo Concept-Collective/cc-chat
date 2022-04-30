@@ -61,7 +61,7 @@ Offical guide to installing **CC Chat**.
 
 --------
 ### License
-For an updated license, check the license.md file. That file will always overrule anything mentioned in the readme.md
+For an updated license, check the ``License`` file. That file will always overrule anything mentioned in the ``readme.md``
 
 cc-chat - Concept Collective
 
