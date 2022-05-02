@@ -5,7 +5,7 @@ hide:
 ---
 
 # Installation
-Offical guide to installing **CC Chat**.
+Official guide to installing **CC Chat**.
 
 ## Dependencies
 - [Chat](https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Bgameplay%5D/chat)
