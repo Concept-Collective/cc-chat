@@ -1,8 +1,8 @@
 local svConfig = {}
 
 -- Configuration
-local svConfig.versionChecker = true -- Version Checker
-local svConfig.supportChecker = true -- Support Checker (If you use exports, it is recommended that you leave this on)
+ svConfig.versionChecker = true -- Version Checker
+ svConfig.supportChecker = true -- Support Checker (If you use exports, it is recommended that you leave this on)
 
 -- Script
 AddEventHandler('onResourceStart', function(resourceName)
