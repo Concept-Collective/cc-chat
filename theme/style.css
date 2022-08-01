@@ -205,7 +205,7 @@ p {
 }
 
 #notification {
-display: flex;
+  display: flex;
   padding: 6px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #FEFEFF;
