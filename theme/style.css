@@ -207,7 +207,7 @@ p {
 #notification {
   display: flex;
   padding: 6px;
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6) !im;
   color: #FEFEFF;
   border-radius: 14px;
   max-width: 98%;
