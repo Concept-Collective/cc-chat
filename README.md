@@ -30,10 +30,10 @@
 
 ### ⚠️ Important Notice
 **The following resources are not compatible with CC Chat**
-⛔ [chat-theme-gtao](https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Bgameplay%5D/chat-theme-gtao)
-⛔ [JSP Chat](https://github.com/okayJSP/chat)
-⛔ [NB Chat](https://github.com/negbook/nb-rpchat)
-⛔ [Dokus Core](https://github.com/DokusCore/DokusCore/tree/8354426c815d229ab439f589e958efce80eadead)
+- ⛔ [chat-theme-gtao](https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Bgameplay%5D/chat-theme-gtao)
+- ⛔ [JSP Chat](https://github.com/okayJSP/chat)
+- ⛔ [NB Chat](https://github.com/negbook/nb-rpchat)
+- ⛔ [Dokus Core](https://github.com/DokusCore/DokusCore/tree/8354426c815d229ab439f589e958efce80eadead)
 
 **If CC Chat is a dependency for another resource you can ignore this notice.**
 
