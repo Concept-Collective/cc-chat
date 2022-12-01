@@ -21,7 +21,7 @@
   margin: 0;
   padding: 0;
   font-size: 0.9rem;
-  background: #00000000 !important;
+  background: #00000000;
 }
 
 .no-grow {
@@ -117,7 +117,7 @@ textarea:focus, input:focus {
   font-size: 0.9rem;
   box-sizing: border-box;
   color: #ffffff;
-  background-color: rgba(36, 38, 42, 0.85);
+  background-color: rgba(36, 38, 42, 0.85) !important;
   border-radius: 14px;
   width: 100%;
   padding-left: 0px;
@@ -126,7 +126,7 @@ textarea:focus, input:focus {
 }
 
 .suggestion {
-  background-color: #17181a;
+  background-color: #17181a !important;
   opacity: 100%;
   border-radius: 8px;
   padding: 7px;

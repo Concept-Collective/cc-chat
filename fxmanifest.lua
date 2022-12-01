@@ -1,4 +1,4 @@
-version '1.2.6'
+version '1.2.7'
 author 'Concept Collective'
 description 'A chat theme for FiveM'
 
