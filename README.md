@@ -29,6 +29,12 @@
 </details>
 
 ### ⚠️ Important Notice
+**The following resources are not compatible with CC Chat**
+⛔ [chat-theme-gtao](https://github.com/citizenfx/cfx-server-data/tree/master/resources/%5Bgameplay%5D/chat-theme-gtao)
+⛔ [JSP Chat](https://github.com/okayJSP/chat)
+⛔ [NB Chat](https://github.com/negbook/nb-rpchat)
+⛔ [Dokus Core](https://github.com/DokusCore/DokusCore/tree/8354426c815d229ab439f589e958efce80eadead)
+
 **If CC Chat is a dependency for another resource you can ignore this notice.**
 
 Please note that this resource **does not include** any pre-written commands  or chat messages; you will need to **create them yourself**. It is designed for people who have some experience with scripting. Only those who have some idea of what they're doing will be given support.
