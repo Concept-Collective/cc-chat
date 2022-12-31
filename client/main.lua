@@ -1,9 +1,9 @@
 function getTimestamp()
     local meridiem = 'AM'
     year , month , day , hour , minute , second = ''
-    if GetGameName() === 'fivem' then
+    if GetGameName() == 'fivem' then
         year , month , day , hour , minute , second = GetLocalTime()
-    else if GetGameName() === 'redm' then
+    elseif GetGameName() == 'redm' then
         year , month , day , hour , minute , second = GetPosixTime()
     end
     if hour >= 13 then
