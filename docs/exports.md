@@ -41,13 +41,15 @@ These exports can only be ran on the server side
 
 #### Explination 
 
-Checks if a client is spamming.
+Checks if a client is spamming. returns a boolen
 
 #### Usage
 
 === "lua"
   ```lua
-  if ccChat:checkSpam(source, message) == true then
-    ...
+  if ccChat:checkSpam(source, message) then
+    -- Code to run if the client is spamming chat
+  else
+    -- Code to run if the client is not spaming chat
   end
   ```
