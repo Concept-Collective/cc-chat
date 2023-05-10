@@ -38,6 +38,7 @@ Please note that this resource **does not include** any pre-written commands  or
 - Custom text input box
 - Custom suggestions box
 - A ready-to-use chat template
+- Anti-spam system
 - [Font Awesome](https://fontawesome.com/) icons (v6.2.1)
 - Completely customisable
 - Free Forever
