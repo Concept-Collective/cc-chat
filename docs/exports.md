@@ -32,3 +32,22 @@ Get's clients local time in the format `HH:MM XX`
   ```lua
   local timestamp = ccChat:getTimestamp()
   ```
+  
+## Server Exports
+
+These exports can only be ran on the server side
+
+### getTimestamp
+
+#### Explination 
+
+Checks if a client is spamming.
+
+#### Usage
+
+=== "lua"
+  ```lua
+  if ccChat:checkSpam(source, message) == true then
+    ...
+  end
+  ```
