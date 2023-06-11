@@ -38,13 +38,13 @@ function checkSpam(source, message)
         return false
     end
 
-    -- Check if the message is a repeat of the last message
-    if message == users[source].lastMessage then
+    -- Check if the user has sent messages too quickly
+    if os.time() - users[source].time < 2 then
         BlockedStatus = true
     end
 
-    -- Check if the user has sent messages too quickly
-    if os.time() - users[source].time < 5 then
+    -- Check if the message is a repeat of the last message
+    if message == users[source].lastMessage then
         BlockedStatus = true
     end
 
