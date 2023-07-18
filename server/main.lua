@@ -14,7 +14,7 @@ AddEventHandler('onResourceStart', function(resourceName)
     end
     if svConfig.versionChecker == true then
         PerformHttpRequest('https://api.github.com/repos/Concept-Collective/cc-chat/releases/latest', function (err, data, headers)
-            if data == nil then 
+            if data == nil then
                 print('An error occurred while checking the version. Your firewall may be blocking access to "github.com". Please check your firewall settings and ensure that "github.com" is allowed to establish connections.')
                 return
             end
