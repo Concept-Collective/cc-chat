@@ -6,6 +6,7 @@ local svConfig = {}
 
 -- Script
 AddEventHandler('onResourceStart', function(resourceName)
+    updateLogFile('Resource Started')
     if (GetCurrentResourceName() ~= resourceName) then
         return
     end
@@ -30,6 +31,20 @@ AddEventHandler('onResourceStart', function(resourceName)
         end, 'GET', '')
     end
 end)
+
+AddEventHandler('chatMessage', function(source, author, message)
+    local formattedMessage = author .. ': ' .. message
+    updateLogFile(formattedMessage)
+end)
+
+function updateLogFile(v)
+    if LoadResourceFile(GetCurrentResourceName(), 'chat_log.log') == nil then
+        SaveResourceFile(GetCurrentResourceName(), 'chat_log.log', '')
+    end
+    local logFile = LoadResourceFile(GetCurrentResourceName(), 'chat_log.log')
+    local logFile = logFile .. os.date("[%H:%M:%S] ") .. v .. '\n'
+    SaveResourceFile(GetCurrentResourceName(), 'chat_log.log', logFile)
+end
 
 -- Antispam System (Beta)
 local users = {}
