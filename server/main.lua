@@ -6,19 +6,23 @@ local svConfig = {}
 
 -- Script
 AddEventHandler('onResourceStart', function(resourceName)
-    updateLogFile('Resource Started')
-    if (GetCurrentResourceName() ~= resourceName) then
+    if GetCurrentResourceName() ~= resourceName then
         return
     end
+
     if GetCurrentResourceName() ~= 'cc-chat' and svConfig.supportChecker == true then
         print('^6[Warning]^0 For better support, it is recommended that "'..GetCurrentResourceName().. '" be renamed to "cc-chat"')
     end
+
     if svConfig.versionChecker == true then
         PerformHttpRequest('https://api.github.com/repos/Concept-Collective/cc-chat/releases/latest', function (err, data, headers)
-            if data == nil then
-                print('An error occurred while checking the version. Your firewall may be blocking access to "github.com". Please check your firewall settings and ensure that "github.com" is allowed to establish connections.')
+            if err then
+                print('^1[Error]^0 HTTP Request failed: ' .. err)
                 return
             end
+
+            print('Raw data from GitHub API:', data)
+
             local data = json.decode(data)
             if data.tag_name ~= 'v'..GetResourceMetadata(GetCurrentResourceName(), 'version', 0) then
                 print('\n^1================^0')
