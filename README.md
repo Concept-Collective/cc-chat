@@ -66,6 +66,6 @@ For an updated license, check the ``License`` file. That file will always overru
 
 cc-chat - Concept Collective
 
-Copyright © 2023 Concept Collective. All rights reserved.
+Copyright © 2024 Concept Collective. All rights reserved.
 
 You can use and edit this code to your liking as long as you don't ever claim it to be your own code and always provide proper credit. You're not allowed to sell cc-chat or any code you take from it. If you want to release your own version of cc-chat, you have to link the original GitHub repo, or release it via a Forked repo.
