@@ -1,1 +1,2 @@
-CC Chat V2 is going to be a complete chat system for FiveM and RedM that will replace the default chat system because it hasent been since 2021
+#### About
+CC Chat V2 is going to be a complete chat system for FiveM and RedM that will replace the default chat system because it has not been updated since 2021.
